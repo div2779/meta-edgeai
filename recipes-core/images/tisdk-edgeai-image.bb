@@ -48,6 +48,7 @@ IMAGE_INSTALL:append = " \
     ${EDGEAI_STACK} \
     packagegroup-arago-gst-sdk-target \
     packagegroup-edgeai-tisdk-addons \
+    packagegroup-core-selinux \
 "
 # disable matrix gui for PSDKLA
 IMAGE_INSTALL:remove = "\
